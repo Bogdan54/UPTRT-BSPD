@@ -1,0 +1,125 @@
+( { EESchema Netlist Version 1.1 created  23 Mar 2023 22:12:48 }
+ ( /23bbb060-8070-4d3a-b0fa-173fae80fa07 Resistor_SMD:R_0201_0603Metric  R7 1k
+  (    1 +5V )
+  (    2 Net-(U5A-+) )
+ )
+ ( /679a4fd2-85b6-468d-8131-b0cb8d4388c8 Capacitor_SMD:C_0201_0603Metric  C1 47uF
+  (    1 Net-(D1-K) )
+  (    2 GND )
+ )
+ ( /5ba57d58-0695-45f5-ba30-ef35a3517284 Resistor_SMD:R_0201_0603Metric  R8 1k
+  (    1 Net-(U5A-+) )
+  (    2 GND )
+ )
+ ( /f4c2d0ff-f1a1-4213-8f29-75cce16777d3 Package_DIP:DIP-14_W7.62mm  U5 LM324
+  (    1 Net-(U1A-~{R}) )
+  (    2 Net-(D2-K) )
+  (    3 Net-(U5A-+) )
+ )
+ ( /967c7338-9079-4fab-8353-4d073f8d9ed6 Resistor_SMD:R_0201_0603Metric  R9 10k
+  (    1 Net-(D1-A) )
+  (    2 Net-(D1-K) )
+ )
+ ( /9d0474c3-7775-4994-b49f-49b6a7bb16f4 Diode_SMD:D_MELF  D1 DIODE
+  (    1 Net-(D1-K) )
+  (    2 Net-(D1-A) )
+ )
+ ( /75837797-cda3-4767-947f-178ff7898fa1 Diode_SMD:D_MELF  D2 DIODE
+  (    1 Net-(D2-K) )
+  (    2 Net-(D2-A) )
+ )
+ ( /8b6615b7-aa51-4c81-be70-f4556e335c3b Resistor_SMD:R_0201_0603Metric  R10 20k
+  (    1 Net-(D2-A) )
+  (    2 Net-(D2-K) )
+ )
+ ( /5a3f8398-3507-442c-a8f5-40b9f581bb1e Capacitor_SMD:C_0201_0603Metric  C2 470uF
+  (    1 Net-(D2-K) )
+  (    2 GND )
+ )
+ ( /a7d73176-9f9c-4877-b3e0-2ad940cab5a9 Resistor_SMD:R_0201_0603Metric  R2 10k
+  (    1 Net-(R2-Pad1) )
+  (    2 Net-(U2B--) )
+ )
+ ( /0a916be2-4df2-47fa-9e3d-797454289914 Resistor_SMD:R_0201_0603Metric  R4 10k
+  (    1 Net-(U2B--) )
+  (    2 GND )
+ )
+ ( /f9a81eb7-cc09-4274-84a5-2092efcd9671 Resistor_SMD:R_0201_0603Metric  R6 10k
+  (    1 VCC )
+  (    2 Net-(R2-Pad1) )
+ )
+ ( /34efe770-9baa-465b-8549-c11de389352b Package_DIP:DIP-14_W7.62mm  U3 74HC00
+  (    1 Net-(R1-Pad2) )
+  (    2 Net-(R2-Pad1) )
+  (    3 Net-(D2-A) )
+ )
+ ( /e7c37ee3-8280-4ec8-a9be-995f99c64eac Resistor_SMD:R_0201_0603Metric  R1 10k
+  (    1 Net-(U2A--) )
+  (    2 Net-(R1-Pad2) )
+ )
+ ( /f8d66bcb-d571-4d4b-88b0-eae2400d8292 Resistor_SMD:R_0201_0603Metric  R5 10k
+  (    1 VCC )
+  (    2 Net-(R1-Pad2) )
+ )
+ ( /9a54fea7-b133-43c8-ba28-af85dd8f0732 Resistor_SMD:R_0201_0603Metric  R3 10k
+  (    1 Net-(U2A--) )
+  (    2 GND )
+ )
+ ( /d5d459c7-ed89-4ae6-b5d9-2a64004cb55f Package_DIP:DIP-8-16_W7.62mm  U2 LM393
+  (    1 Net-(R1-Pad2) )
+  (    2 Net-(U2A--) )
+  (    3 unconnected-(U2A-+-Pad3) )
+  (    4 unconnected-(U2C-V--Pad4) )
+  (    5 unconnected-(U2B-+-Pad5) )
+  (    6 Net-(U2B--) )
+  (    7 Net-(R2-Pad1) )
+  (    8 unconnected-(U2C-V+-Pad8) )
+ )
+ ( /39d41b34-2407-4fd8-88cb-5a0b332bdba2 Capacitor_SMD:C_0201_0603Metric  C3 47uF
+  (    1 Net-(D1-K) )
+  (    2 GND )
+ )
+ ( /9fd6a3be-5b30-4705-8dbe-d4eff96e378d Package_DIP:DIP-14_W7.62mm  U1 74HC74
+  (    1 Net-(U1A-~{R}) )
+  (    2 Net-(U1A-D) )
+  (    3 unconnected-(U1A-C-Pad3) )
+  (    4 Net-(U1A-D) )
+  (    5 Net-(U1A-Q) )
+  (    6 unconnected-(U1A-~{Q}-Pad6) )
+ )
+ ( /a2f19a98-ae85-414c-82b8-be8c1f9362ad Package_DIP:DIP-14_W7.62mm  U6 LM324
+  (    1 Net-(U1A-D) )
+  (    2 Net-(D1-K) )
+  (    3 Net-(U6A-+) )
+ )
+ ( /423bd555-1d3e-437e-842e-e2ea74a385a3 Resistor_SMD:R_0201_0603Metric  R12 1k
+  (    1 Net-(U6A-+) )
+  (    2 GND )
+ )
+ ( /61e767c2-6b8a-478c-a02f-4cd6c6c60f33 Resistor_SMD:R_0201_0603Metric  R11 1k
+  (    1 +5V )
+  (    2 Net-(U6A-+) )
+ )
+ ( /9492b05e-c98f-4dfb-9e22-45cca1b45444 Package_DIP:DIP-14_W7.62mm  U4 74HC04
+  (    1 Net-(D2-A) )
+  (    2 Net-(D1-A) )
+ )
+ ( /5351d829-9642-41b7-bfa4-4edfe792c1a3 Resistor_SMD:R_0201_0603Metric  D3 DIODE
+  (    1 Net-(D3-K) )
+  (    2 +5V )
+ )
+ ( /7509e1b7-8281-4f12-b99a-f0dffbe016e3 Resistor_SMD:R_0201_0603Metric  L1 L
+  (    1 +5V )
+  (    2 Net-(D3-K) )
+ )
+ ( /2aa3e5a8-f299-441a-bcfd-39ca1b908915 Resistor_SMD:R_0201_0603Metric  Q1 IRLZ34N
+  (    1 Net-(Q1-G) )
+  (    2 Net-(D3-K) )
+  (    3 GND )
+ )
+ ( /d088ae65-6ab7-47c3-a966-9484e4766346 Resistor_SMD:R_0201_0603Metric  R14 R
+  (    1 Net-(U1A-Q) )
+  (    2 Net-(Q1-G) )
+ )
+)
+*
