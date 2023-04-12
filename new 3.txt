@@ -1,0 +1,30 @@
+The 74LS74 is a dual positive-edge-triggered D flip-flop with integrated SR latch, and it has a total of 14 pins. Each flip-flop has a D input, a clock (CLK) input, a Q output, a complemented Q output, and a clear (CLR) and preset (PR) input.
+
+To implement the SR latch using the 74LS74, you can follow these steps:
+
+Connect the S and R inputs of the SR latch to the D inputs of the two flip-flops.
+
+Tie the CLK input of both flip-flops together.
+
+Connect the output of your delay circuit (e.g. the op-amp) to the CLK input.
+
+Connect the CLR and PR inputs of both flip-flops to VCC through a resistor (e.g. 10kΩ) to prevent them from being accidentally triggered.
+
+Finally, connect the output of the SR latch to the Q output of one of the flip-flops (e.g. the first flip-flop).
+
+Here's how you can connect the individual pins of the 74LS74:
+
+Pin 1 (CLR1): Connect to VCC through a resistor.
+Pin 2 (D1): Connect to the S input of the SR latch.
+Pin 3 (CLK): Connect to the output of your delay circuit and to the CLK input of both flip-flops.
+Pin 4 (PR1): Connect to VCC through a resistor.
+Pin 5 (Q1): Connect to the output of the SR latch.
+Pin 6 (/Q1): Connect to the D input of the second flip-flop.
+Pin 7 (GND): Connect to ground.
+Pin 8 (/Q2): Connect to the output of the complemented output of the second flip-flop.
+Pin 9 (D2): Connect to the R input of the SR latch.
+Pin 10 (Q2): Connect to the output of the second flip-flop.
+Pin 11 (PR2): Connect to VCC through a resistor.
+Pin 12 (CLR2): Connect to VCC through a resistor.
+Pin 13 (GND): Connect to ground.
+Pin 14 (VCC): Connect to the power supply.

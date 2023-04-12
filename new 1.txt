@@ -1,0 +1,25 @@
+The CD4013B is a dual D flip-flop integrated circuit that can be used as a simple SR latch in its bistable mode. Here is a basic circuit diagram showing how to implement CD4013B as an SR latch:
+
+           +--------------+
+           |              |
+           |              |
+    S -----|D1    CD4013B |----- Q1
+           |              |
+    R -----|D2           |----- Q2
+           |              |
+           +--------------+
+In this circuit, S and R are the input pins of the SR latch. D1 and D2 are the inputs of the two D flip-flops inside the CD4013B IC. Q1 and Q2 are the outputs of the two D flip-flops, which correspond to the outputs of the SR latch.
+
+To implement the SR latch using the CD4013B IC, follow these steps:
+
+Connect the power supply (Vcc and GND) pins of the CD4013B IC to a suitable voltage source.
+
+Connect the S and R input pins to appropriate voltage sources, such as a pull-up resistor to Vcc or a pull-down resistor to GND.
+
+Connect the D1 and D2 inputs to the same voltage source as the S and R inputs.
+
+Connect the Q1 output to the D2 input, and the Q2 output to the D1 input.
+
+Connect a capacitor between the RST and GND pins of the CD4013B IC to provide a power-on reset.
+
+With this circuit, the CD4013B IC will act as an SR latch in its bistable mode. When S is high and R is low, Q1 will be set to high and Q2 will be set to low, storing a "1" in the latch. When R is high and S is low, Q2 will be set to high and Q1 will be set to low, storing a "0" in the latch. When both S and R
