@@ -1,5 +1,5 @@
-# UPTRT-BSPD PCB Design
-This repository contains the PCB design files for the UPTRT-BSPD (Polytehnic University of Timișoara Racing Team - Brake System Plausibility Device) project. The UPTRT-BSPD is being developed for participation in the Formula Student competition.
+# UPTRT-BSPD PCB Design (Version 1.2)
+This repository contains the PCB design files for the UPTRT-BSPD project. The UPTRT-BSPD is being developed for participation in the Formula Student competition.
 
 ## Overview
 The UPTRT-BSPD PCB is designed to provide brake system plausibility monitoring and control functionalities. The PCB incorporates a microcontroller, flip-flop components, potentiometer, and connectors for external connections. The design ensures reliable and efficient performance while meeting the requirements of the Formula Student competition.
