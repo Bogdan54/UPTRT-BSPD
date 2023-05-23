@@ -16,7 +16,7 @@ To view or modify the PCB design, you will need to have KiCad installed on your 
 1. Clone this repository to your local machine using  
 > git clone https://github.com/Bogdan54/UPTRT-BSPD.git
 2. Open the KiCad project files located in the PCB/Using 74HC74N with potentiometer/ directory.
-3. Use <a href="https://www.kicad.org/">KiCad</a> to view or modify the schematic, layout, and component placement.
+3. Use <a href="https://www.kicad.org/">KiCad</a> to view or modify the schematic, layout, and component placement and for the simulation you will have <a href="https://www.ni.com/ro-ro/support/downloads/software-products/download.multisim.html#452133">Multisim 14</a>.
 4. Generate the necessary output files, such as Gerber files, for PCB manufacturing.
 
 ## Manufacturing
@@ -34,4 +34,4 @@ For detailed documentation of the PCB design, including the schematic overview, 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## License
-This project is licensed under the 
+This project is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3 License</a>.
