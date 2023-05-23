@@ -5,10 +5,10 @@ This repository contains the PCB design files for the UPTRT-BSPD (Polytehnic Uni
 The UPTRT-BSPD PCB is designed to provide brake system plausibility monitoring and control functionalities. The PCB incorporates a microcontroller, flip-flop components, potentiometer, and connectors for external connections. The design ensures reliable and efficient performance while meeting the requirements of the Formula Student competition.
 
 ## Repository Structure
-PCB/Using 74HC74N with potentiometer/: Contains the KiCad project files for the PCB design.
-PCB/Using 74HC74N with potentiometer/schematic.png: Schematic diagram in PNG format.
-PCB/Using 74HC74N with potentiometer/bom.csv: Bill of Materials (BOM) listing the components used.
-PCB/Using 74HC74N with potentiometer/gerber/: Gerber files required for PCB manufacturing.
+* PCB/Using 74HC74N with potentiometer/: Contains the KiCad project files for the PCB design.
+* PCB/Using 74HC74N with potentiometer/schematic.png: Schematic diagram in PNG format.
+* PCB/Using 74HC74N with potentiometer/bom.csv: Bill of Materials (BOM) listing the components used.
+* PCB/Using 74HC74N with potentiometer/gerber/: Gerber files required for PCB manufacturing.
 
 ## Getting Started
 To view or modify the PCB design, you will need to have KiCad installed on your system. Follow these steps to get started:
