@@ -13,7 +13,8 @@ PCB/Using 74HC74N with potentiometer/gerber/: Gerber files required for PCB manu
 ## Getting Started
 To view or modify the PCB design, you will need to have KiCad installed on your system. Follow these steps to get started:
 
-Clone this repository to your local machine using  > git clone https://github.com/Bogdan54/UPTRT-BSPD.git.
+Clone this repository to your local machine using  
+> git clone https://github.com/Bogdan54/UPTRT-BSPD.git
 Open the KiCad project files located in the PCB/Using 74HC74N with potentiometer/ directory.
 Use KiCad to view or modify the schematic, layout, and component placement.
 Generate the necessary output files, such as Gerber files, for PCB manufacturing.
